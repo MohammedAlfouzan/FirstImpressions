@@ -1,0 +1,49 @@
+*{
+	font family: helvetica, sans-serif;
+}
+body{
+	background-color: #46B1C9;'
+	color: #F2E2D2;
+	
+}
+ul{
+	list-style-type: none;
+  	margin: 10;
+  	padding: 50;
+  	background-color: #5481c9;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+li a{
+	display: block;
+	word-spacing: 100000px;
+	font-size: 20px;
+  	color: black;
+  	text-align: center;
+  	padding: 17px 200px;
+  	text-decoration: none;
+}
+
+h1{
+	color:#000000;
+	text-align: Left;
+	font family: Courier New
+	font-size: 30px;
+}
+
+p{
+	color: #3A0087;
+	margin-left: 15%;
+	background-color: #877FFF;
+}
+h2{
+	color: #000000;
+	text-align: center;
+}
+section{
+	text-align: center;
+}
+
