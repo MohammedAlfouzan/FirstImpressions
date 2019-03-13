@@ -1,0 +1,53 @@
+body{
+	font-family: helvetica;
+	background-color: #46B1C9;
+	color: #black;	
+	min-height:100%;
+}
+
+nav{
+	margin: 10;
+	padding: 30;
+	text-align: center;
+	font-size: 18;
+	
+	display: grid;
+	grid-template-columns: repeat(5 1fr);
+	grid-auto-rows: repeat(1fr) ;
+	grid-column-start: 5;
+	grid-column-end: 3;
+	grid-row-start: 1; 
+	grid-row-end: 1; 
+	
+	overflow: hidden;
+}
+
+ol{
+	display: inline;
+	float: center;
+}
+
+#form{
+	width: 200px;
+	padding: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: left;
+}
+
+label{
+	margin-bottom: 5px
+}
+
+label, input {
+    display: block
+}
+
+footer{
+	text-align: right;
+	position:fixed;
+	width: 98%;
+    bottom:0;
+}
+
