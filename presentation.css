@@ -1,5 +1,5 @@
 *{
-	font family: helvetica, sans-serif;
+	font-family: helvetica, sans-serif;
 }
 body{
 	background-color: #46B1C9;'
@@ -10,16 +10,23 @@ ul{
 	list-style-type: none;
   	margin: 10;
   	padding: 50;
-  	background-color: #5481c9;
+
 	overflow: hidden;
 }
 
 li{
 	float: left;
 }
+a{
+	font-size: 16px;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 50; 	
+	overflow: hidden;
+}
 li a{
 	display: block;
-	word-spacing: 100000px;
+	background-color: #5481c9;
 	font-size: 20px;
   	color: black;
   	text-align: center;
@@ -31,11 +38,11 @@ h1{
 	color:#000000;
 	text-align: Left;
 	font family: Courier New
-	font-size: 30px;
+	font: 15px;
 }
 
 p{
-	color: #3A0087;
+	color: ;
 	margin-left: 15%;
 	background-color: #877FFF;
 }
@@ -43,7 +50,70 @@ h2{
 	color: #000000;
 	text-align: center;
 }
+h3{
+	color: #000000;
+	text-align: center;
+}
 section{
 	text-align: center;
+}
+#login{
+	
+}
+.categories{
+	font-size: 16px;
+	margin: auto;
+	overflow: hidden;
+	float: left;
+	display: block;
+	word-spacing: 100000px;
+	font-size: 20px;
+  	color: black;
+  	text-align: center;
+  	padding: 50px 200px;
+  	text-decoration: none;	
+}
+a.one:link{
+	font-size: 20px;
+	background-color: #41f4eb;
+  	color: black;
+	width: 500px;
+  	padding: 30px 25px;
+  	text-align: center; 
+  	text-decoration: none;
+  	display: inline-block;
+}
+#login{
+	position: absolute;
+	background-color: #41f4d6;
+	height: 50px;
+	width: 100px;
+	margin-top: -180px;
+	margin-left: 1340px;
+	padding-right: 10px;
+	text-decoration: none;
+	border-radius: 90%;
+}
+
+#signup{
+	position: absolute;
+	background-color: #41f4d6;
+	height: 50px;
+	width: 100px;
+	margin-top: -180px;
+	margin-left: 1225px;
+	text-align: left;
+	padding-right: 10px;
+	border-radius: 90%;
+}
+a.login:link{
+
+	text-decoration: none;
+	text-align: left;
+
+}
+a.signUp:link{
+	text-decoration: none;
+	text-align: left;
 }
 
