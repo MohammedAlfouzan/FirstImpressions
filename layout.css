@@ -5,20 +5,15 @@ body{
 	min-height:100%;
 }
 
+.icon{
+	display: inline;
+	padding-right: 10px;
+}
+
 nav{
-	margin: 10;
-	padding: 30;
+	padding: 10px;
 	text-align: center;
-	font-size: 18;
-	
-	display: grid;
-	grid-template-columns: repeat(5 1fr);
-	grid-auto-rows: repeat(1fr) ;
-	grid-column-start: 5;
-	grid-column-end: 3;
-	grid-row-start: 1; 
-	grid-row-end: 1; 
-	
+	font-size: 20px;	
 	overflow: hidden;
 }
 
