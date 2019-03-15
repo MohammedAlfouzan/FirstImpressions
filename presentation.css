@@ -2,7 +2,7 @@
 	font-family: helvetica, sans-serif;
 }
 body{
-	background-color: #46B1C9;'
+	background-color: #628c82;
 	color: #F2E2D2;
 	
 }
@@ -17,21 +17,22 @@ ul{
 li{
 	float: left;
 }
+
 a{
 	font-size: 16px;
 	list-style-type: none;
   	margin: 0;
-  	padding: 50; 	
+  	padding: 5px; 	
 	overflow: hidden;
 }
 li a{
 	display: block;
-	background-color: #5481c9;
+	background-color: #67b2a0;
 	font-size: 20px;
   	color: black;
   	text-align: center;
-  	padding: 17px 200px;
   	text-decoration: none;
+	padding: 20px 180px;
 }
 
 h1{
@@ -54,11 +55,8 @@ h3{
 	color: #000000;
 	text-align: center;
 }
-section{
+div{
 	text-align: center;
-}
-#login{
-	
 }
 .categories{
 	font-size: 16px;
@@ -78,34 +76,11 @@ a.one:link{
 	background-color: #41f4eb;
   	color: black;
 	width: 500px;
-  	padding: 30px 25px;
   	text-align: center; 
   	text-decoration: none;
   	display: inline-block;
 }
-#login{
-	position: absolute;
-	background-color: #41f4d6;
-	height: 50px;
-	width: 100px;
-	margin-top: -180px;
-	margin-left: 1340px;
-	padding-right: 10px;
-	text-decoration: none;
-	border-radius: 90%;
-}
 
-#signup{
-	position: absolute;
-	background-color: #41f4d6;
-	height: 50px;
-	width: 100px;
-	margin-top: -180px;
-	margin-left: 1225px;
-	text-align: left;
-	padding-right: 10px;
-	border-radius: 90%;
-}
 a.login:link{
 
 	text-decoration: none;
@@ -129,12 +104,4 @@ a.post:link{
 	text-align: center;
 	color: black;
 	text-decoration: none;
-}
-
-footer{
-	padding:3px;
-	text-align: right;
-	position:fixed;
-	width: 98%;
-    bottom:0;
 }
