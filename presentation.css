@@ -130,3 +130,11 @@ a.post:link{
 	color: black;
 	text-decoration: none;
 }
+
+footer{
+	padding:3px;
+	text-align: right;
+	position:fixed;
+	width: 98%;
+    bottom:0;
+}
